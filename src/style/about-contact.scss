@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: $teal;
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    .left-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        padding: 20px;
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: 1fr;
+
+
+            .icons {
+                padding: 20px;
+                color: $grey;
+                font-size: .8em;
+               
+            }
+        }
+    }
+
+    .right-side {
+     img {
+         width: 100%;
+         border-radius: 5px;
+         height: 100%;
+     }
+    }
+    
+}
